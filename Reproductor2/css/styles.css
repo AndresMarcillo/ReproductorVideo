@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../src/images/fondo/fondo2.jpg');
+    background-size: cover;
+}
+
+.contenedor {
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.contenedor .titulo {
+    background: rgba(0, 0, 0, 0.644);
+    padding: 35px;
+    width: 100%;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+    color: white;
+}
+
+video {
+    background: black;
+    padding: 10px;
+    width: 800px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+input[type=button] {
+    background: url('../src/images/poster/1.gif');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: solid rgba(0, 0, 0, 0);
+}
+
+.contenedor .botones {
+    position: absolute;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -305px;
+}
