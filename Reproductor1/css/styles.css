@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../src/images/fondo/fondo2.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.contenedor {
+    height: 100vh;
+}
+
+.contenedor .titulo {
+    background: rgba(0, 0, 0, 0.658);
+    padding: 35px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+video {
+    background: black;
+    width: 800px;
+    height: 400px;
+}
